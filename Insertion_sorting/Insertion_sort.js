@@ -1,5 +1,6 @@
 function insertionSort(arr) {
     for (let i = 1; i < arr.length; i++) {
+        console.log(arr)
         let current = arr[i];
         let j;
      
@@ -14,4 +15,4 @@ function insertionSort(arr) {
 
 const array = [5, 3, 8, 4, 2];
 
-console.log("Sorted array:", insertionSort(array));
+insertionSort(array);
